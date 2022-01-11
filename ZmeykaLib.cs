@@ -108,7 +108,7 @@ namespace ZmeykaLib
 
         void Set_Colors()
         {
-            Empty = (Color)ColorConverter.ConvertFromString("#F0F8FF");
+            Empty = (Color)ColorConverter.ConvertFromString("#e3e3e3");
             Snake = (Color)ColorConverter.ConvertFromString("#06d6a0 ");
             Apple = (Color)ColorConverter.ConvertFromString("#f9c74f");
             DeadSnake = (Color)ColorConverter.ConvertFromString("#ffadad");
