@@ -52,7 +52,7 @@ namespace ZmeykaLib
         {
             gameTickTimer.Tick -= UpdateEvents;
             gameTickTimer.Tick += UpdateEvents;
-            gameTickTimer.Interval = new TimeSpan(1000000);
+            gameTickTimer.Interval = new TimeSpan(2500000);
             gameTickTimer.Start();
         }
 
